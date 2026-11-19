@@ -6,7 +6,7 @@ def monkey_trouble(a_smile, b_smile):
 
 a = input().lower()
 a_smile = True if a == 'smile' else False
-b = input()
+b = input().lower()
 b_smile = True if b == 'smile' else False
 
 print(monkey_trouble(a_smile, b_smile))
