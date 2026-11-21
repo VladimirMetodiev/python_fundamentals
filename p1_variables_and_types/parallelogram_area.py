@@ -15,8 +15,8 @@ def get_a_valid_angle(text: str) -> float:
     while True:
         try:
             value = float(input(text))
-            if value >= 180:
-                print('Error: the angle of a parallelogram must be less than 180 degrees')
+            if value <=0 or value >= 180:
+                print('Error: the angle of a parallelogram must be between 0 and 180 degrees')
             else:
                 return value
         except ValueError:
