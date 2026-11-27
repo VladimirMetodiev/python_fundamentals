@@ -16,13 +16,13 @@ print(double_char(some_str))
 
 # Моето първо решение - 100/100
 
-def double_char(some_str):
-    result = ''
+# def double_char(some_str):
+#     result = ''
 
-    for ch in some_str:
-        result += ch + ch
+#     for ch in some_str:
+#         result += ch + ch
 
-    return result
+#     return result
 
-some_str = input('Enter some text: ')
-print(double_char(some_str))
+# some_str = input('Enter some text: ')
+# print(double_char(some_str))
